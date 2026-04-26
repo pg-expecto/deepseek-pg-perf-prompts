@@ -1,0 +1,26 @@
+Входные данные:  
+- pgpro_pwr.X1-X2.clear.html – встроенный JSON-массив load_dist внутри тега <script>.  
+- ТаблицаG.25.txt – описание метрик (Total time, Executed count, I/O time и т.д.)  
+
+Задача: Извлеки из файла массив `_data[0].report_data.datasets.load_dist` и выбери объекты, у которых `db_filter: true` (это строки по базам данных ).  
+Для каждой метрики из Таблицы G.25 найди соответствующее поле в этих объектах (см. сопоставление ниже) и построй таблицу абсолютных значений в формате:
+
+**Resource** | **наименование базы данных-1** |..| **наименование базы данных-N** |
+
+Где строки – метрики из Таблицы G.25 в том же порядке.
+
+**Сопоставление метрик с полями JSON:**
+- Total time (sec.) → total_time (число, секунды)
+- Executed count → exec_count
+- I/O time (sec.) → blks_io_time
+- Blocks fetched → blks_fetched
+- Shared blocks read → shared_blks_read
+- Shared blocks dirtied → shared_blks_dirtied
+- Shared blocks written → shared_blks_written
+- WAL generated → wal_bytes
+- Temp and Local blocks written → temp_local_blks_written
+- Temp and Local blocks read → temp_local_blks_read
+- Invalidation messages sent → inval_msgs_total
+- Cache resets → cache_resets (для некоторых БД может быть null, оставить null)
+
+Ответ оформи строго в виде маркдаун-таблицы с выравниванием по правому краю для числовых значений, без дополнительных пояснений. Названия баз данных возьми из поля objname.  
