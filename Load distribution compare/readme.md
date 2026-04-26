@@ -8,7 +8,7 @@
 
 Перед началом работы убедитесь, что у вас есть следующие файлы:
 
-- `_prompt-instruction.txt` (основные инструкции для анализа)
+- `_prompt-instruction.txt` – основные инструкции для анализа (доступен в [репозитории deepseek-pg-perf-prompts](https://github.com/pg-expecto/deepseek-pg-perf-prompts/tree/main))
 - [Philosophical_instruction_BETA_v5.1.md](https://github.com/pg-expecto/Philosophical_instruction/blob/main/Philosophical_instruction_BETA_v5.1.md) (методологические указания)
 - `load_distribution.1.txt` – таблица «Load distribution» по первому отчёту pgpro_pwr (например, отчёт-X1-X2)
 - `load_distribution.2.txt` – таблица «Load distribution» по второму отчёту pgpro_pwr (например, отчёт-Y1-Y2)
@@ -24,7 +24,7 @@
 1. **Создайте новый чат** с DeepSeek.
 
 2. **Загрузите инструкции** в чат:
-   - `_prompt-instruction.txt`
+   - `_prompt-instruction.txt` (скачайте его из репозитория [pg-expecto/deepseek-pg-perf-prompts](https://github.com/pg-expecto/deepseek-pg-perf-prompts/tree/main))
    - `Philosophical_instruction_BETA_v5.1.md` (можно по ссылке или локально)
 
 3. **Введите первый запрос** DeepSeek:
