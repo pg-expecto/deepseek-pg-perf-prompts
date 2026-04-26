@@ -1,5 +1,5 @@
 Входные данные:
-- table.result.txt - Таблица соответствия конфигурационных параметров СУБД между отчетами pgpro_pwr "отчет-X1-X2" и "отчет-93-94"
+- table.result.txt - Таблица соответствия конфигурационных параметров СУБД между отчетами pgpro_pwr "отчет-X1-X2" и "отчет-Y1-Y2"
 - load_distribution.1.txt - Таблица "Load distribution" по отчету pgpro_pwr "отчет-X1-X2"
 - load_distribution.2.txt - Таблица "Load distribution" по отчету pgpro_pwr "отчет-Y1-Y2"
 - Таблица_G.78.txt - Описание раздела "Cluster settings during the report interval (Параметры кластера в отчётном интервале)"
