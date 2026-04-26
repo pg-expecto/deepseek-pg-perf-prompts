@@ -1,0 +1,9 @@
+Входные данные:
+- pgpro_pwr_X1-X2.clear.html - отчет pgpro_pwr "отчет-X1-X2"
+- queryid-2.txt - таблица соответствия "Query ID" 
+
+Задача:
+- Для каждого "Query ID (отчет-X1-X2)"(имеющего соответствие "Query ID (отчет-Y1-Y2)") из queryid-2.txt получить план выполнения из отчета pgpro_pwr_X1-X2.clear.html
+- Сформировать таблицу планов выполнения в формате:
+
+SQL TEXT | Query ID (отчет-X1-X2) | Plan (отчет-X1-X2)
