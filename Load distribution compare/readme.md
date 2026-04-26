@@ -12,7 +12,7 @@
 - [Philosophical_instruction_BETA_v5.1.md](https://github.com/pg-expecto/Philosophical_instruction/blob/main/Philosophical_instruction_BETA_v5.1.md) (методологические указания)
 - `load_distribution.1.txt` – таблица «Load distribution» по первому отчёту pgpro_pwr (например, отчёт-X1-X2)
 - `load_distribution.2.txt` – таблица «Load distribution» по второму отчёту pgpro_pwr (например, отчёт-Y1-Y2)
-- `Таблица_G.78.txt` – описание раздела «Cluster settings during the report interval»
+- `ТаблицаG.78.txt` – описание раздела «Cluster settings during the report interval»
 - `ТаблицаG.25.txt` – описание метрик (`Total time`, `Executed count`, `I/O time` и др.)
 - `table.result.txt` – таблица соответствия конфигурационных параметров СУБД между отчётами, сформированная с помощью [инструмента сравнения](https://github.com/pg-expecto/deepseek-pg-perf-prompts/tree/main/parameter%20table)
 - `prompt-analyze.txt` – шаблон аналитического запроса (требует ручной правки)
@@ -35,7 +35,7 @@
 4. **Загрузите данные** (последовательная отправка файлов):
    - `load_distribution.1.txt` – таблица нагрузки по первому отчёту
    - `load_distribution.2.txt` – таблица нагрузки по второму отчёту
-   - `Таблица_G.78.txt` – описание параметров кластера
+   - `ТаблицаG.78.txt` – описание параметров кластера
    - `ТаблицаG.25.txt` – описание метрик распределения нагрузки
    - `table.result.txt` – таблица сравнения параметров
 
