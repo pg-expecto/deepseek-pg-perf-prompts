@@ -1,7 +1,8 @@
-## Файлы проекта
-
 ### 1. `_prompt-instruction.txt`
 Инструкция для ИИ-эксперта по производительности PostgreSQL. Задаёт правила анализа метрик, уровни достоверности выводов (L1–L4), протокол обработки противоречий и требования к стилю ответов. Используется как системный промпт при анализе данных о работе СУБД.
+
+> **Местоположение:** Инструкция доступна для скачивания в репозитории [pg-expecto/deepseek-pg-perf-prompts](https://github.com/pg-expecto/deepseek-pg-perf-prompts/tree/main).  
+> **Прямая ссылка:** [`_prompt-instruction.txt`](https://github.com/pg-expecto/deepseek-pg-perf-prompts/blob/main/_prompt-instruction.txt)
 
 ### 2. `prompt-load.source.txt`
 Техническое задание на извлечение данных из HTML-отчёта `pgpro_pwr.X1-X2.clear.html`. Предписывает:
@@ -32,7 +33,7 @@
 
 1. **Загрузить инструкцию для эксперта**  
    - Откройте новый чат с DeepSeek.  
-   - Загрузите файл [`_prompt-instruction.txt`].  
+   - Загрузите файл **`_prompt-instruction.txt`**, предварительно скачав его из репозитория [pg-expecto/deepseek-pg-perf-prompts](https://github.com/pg-expecto/deepseek-pg-perf-prompts/blob/main/_prompt-instruction.txt).  
    - Введите запрос:  
      ```
      Строго следуй инструкции, ожидай данные
