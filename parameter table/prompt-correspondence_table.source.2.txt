@@ -2,7 +2,7 @@
 pgpro_pwr.Y1-Y2.clear.html - Именовать в ответе "отчет-Y1-Y2"
 Таблица_G.78.txt - Описание раздела "Cluster settings during the report interval (Параметры кластера в отчётном интервале)"
 Задача - cформировать таблицу значений в столбце "reset_val" + "Unit" по разделу "Cluster settings during the report interval"
-строго в заданном формате:
+в формате mark down:
 Setting | отчет-Y1-Y2
 
 В ответ не включать параметры:
