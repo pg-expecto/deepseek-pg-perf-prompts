@@ -133,7 +133,10 @@
 4. Загружаются HTML-отчёт `pgpro_pwr.X1-X2.clear.html` и файл **`ТаблицаG.24.txt`**.
 5. Отправляется исправленный файл `prompt-top-waits.txt` как запрос.
 6. Полученный результат сохраняется в файл `top-waits.txt`.
-   
+
+## `Анализ разностного отчета pgpro_pwr`
+
+https://github.com/pg-expecto/deepseek-pg-perf-prompts/tree/main/diff   
 ---
 
 ## 🤝 Внесение вклада
